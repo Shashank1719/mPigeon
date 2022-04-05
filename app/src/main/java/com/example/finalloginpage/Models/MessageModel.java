@@ -2,7 +2,7 @@ package com.example.finalloginpage.Models;
 
 public class MessageModel {
 
-    String uId, message;
+    String uId, message, msgId;
     long timeStamp;
 
     public MessageModel(String uId, String message, long timeStamp) {
@@ -17,6 +17,14 @@ public class MessageModel {
     }
 
     public MessageModel() {}
+
+    public String getMsgId() {
+        return msgId;
+    }
+
+    public void setMsgId(String msgId) {
+        this.msgId = msgId;
+    }
 
     public String getuId() {
         return uId;

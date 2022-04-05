@@ -2,7 +2,21 @@ package com.example.finalloginpage;
 
 public class Users
 {
-    private String uid,name,phoneNumber,profileImage;
+    private String uid;
+    private String name;
+    private String phoneNumber;
+    private String profileImage;
+    private String about;
+
+    public String getAbout() {
+        return about;
+    }
+
+    public void setAbout(String about) {
+        this.about = about;
+    }
+
+
 
     public Users()
     {
@@ -14,6 +28,14 @@ public class Users
         this.name = name;
         this.phoneNumber = phoneNumber;
         this.profileImage = profileImage;
+    }
+
+    public Users(String uid, String name, String phoneNumber, String profileImage, String about) {
+        this.uid = uid;
+        this.name = name;
+        this.phoneNumber = phoneNumber;
+        this.profileImage = profileImage;
+        this.about = about;
     }
 
     public String getUid() {

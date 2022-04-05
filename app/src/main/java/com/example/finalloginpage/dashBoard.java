@@ -62,8 +62,9 @@ public class dashBoard extends AppCompatActivity {
                 break;
 
             case R.id.group_chat:
-                Intent intent1 = new Intent(dashBoard.this, GroupChat.class);
-                startActivity(intent1);
+//                Intent intent1 = new Intent(dashBoard.this, GroupChat.class);
+//                startActivity(intent1);
+                Toast.makeText(this, "\t\t\t\t\tComing soon...\nThanks for your patience.", Toast.LENGTH_SHORT).show();
                 break;
 
         }

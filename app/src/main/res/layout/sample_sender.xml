@@ -54,7 +54,7 @@
             android:layout_height="wrap_content"
             android:layout_marginEnd="3dp"
             android:layout_marginBottom="3dp"
-            android:text="12:00 PM"
+            android:hint="12:00 PM"
             android:textAlignment="viewEnd"
             android:textSize="7dp"
             app:layout_constraintBottom_toBottomOf="parent"
