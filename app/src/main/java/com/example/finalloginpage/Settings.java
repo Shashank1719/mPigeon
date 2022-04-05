@@ -94,6 +94,8 @@ public class Settings extends AppCompatActivity {
             }
         });
 
+        //HELLO
+
         binding.plusSettings.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
