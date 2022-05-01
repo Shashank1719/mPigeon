@@ -44,7 +44,8 @@
             android:layout_marginRight="5dp"
             android:layout_marginBottom="5dp"
             android:layout_weight="1"
-            app:srcCompat="@drawable/send_msg" />
+            app:srcCompat="@drawable/send_msg"
+            android:contentDescription="@string/send_button_chat_detail" />
     </LinearLayout>
 
     <androidx.recyclerview.widget.RecyclerView
@@ -76,7 +77,8 @@
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
                 app:layout_constraintVertical_bias="0.533"
-                app:srcCompat="@drawable/back" />
+                app:srcCompat="@drawable/back"
+                android:contentDescription="@string/back_chat_detail" />
 
             <com.mikhaellopez.circularimageview.CircularImageView
                 android:id="@+id/msg_img"
@@ -113,7 +115,8 @@
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toStartOf="@+id/msg_menu"
                 app:layout_constraintTop_toTopOf="parent"
-                app:srcCompat="@drawable/call_blue" />
+                app:srcCompat="@drawable/call_blue"
+                android:contentDescription="@string/call" />
 
             <ImageView
                 android:id="@+id/msg_menu"
@@ -124,7 +127,8 @@
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
-                app:srcCompat="@drawable/blue_dots" />
+                app:srcCompat="@drawable/blue_dots"
+                android:contentDescription="@string/menu_chat" />
 
         </androidx.constraintlayout.widget.ConstraintLayout>
 

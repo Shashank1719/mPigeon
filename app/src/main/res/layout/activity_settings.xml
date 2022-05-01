@@ -18,7 +18,8 @@
         android:layout_alignParentTop="true"
         android:layout_marginTop="12dp"
         app:srcCompat="@drawable/back_arrow_settings"
-        app:tint="#FFFFFF" />
+        app:tint="#FFFFFF"
+        android:contentDescription="@string/back_arrow_settings" />
 
     <LinearLayout
         android:id="@+id/user_detail_linear_layout"
@@ -47,7 +48,8 @@
             android:layout_height="30dp"
             android:layout_marginLeft="47dp"
             android:layout_marginTop="-28dp"
-            app:srcCompat="@drawable/plus" />
+            app:srcCompat="@drawable/plus"
+            android:contentDescription="@string/set_image_settings" />
 
         <LinearLayout
             android:id="@+id/user_detail_linear_layout_horizontal_settings"
@@ -93,7 +95,7 @@
                 android:layout_height="wrap_content"
                 android:layout_margin="3dp"
                 android:padding="5dp"
-                android:text="About : "
+                android:text="@string/about"
                 android:textColor="#000000"
                 android:textSize="20sp"
                 android:textStyle="bold" />
@@ -104,7 +106,7 @@
                 android:layout_height="wrap_content"
                 android:layout_margin="4dp"
                 android:ems="10"
-                android:hint="Enter Your Status"
+                android:hint="@string/enter_your_status"
                 android:inputType="textPersonName"
                 android:textColor="#000000"
                 android:textColorHint="#000000"
@@ -120,7 +122,7 @@
             android:layout_marginRight="5dp"
             android:background="@drawable/btn_bg_settings"
             android:padding="5dp"
-            android:text="Save"
+            android:text="@string/save"
             android:textColor="#002AFF" />
 
     </LinearLayout>

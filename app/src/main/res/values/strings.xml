@@ -16,4 +16,15 @@
     <string name="create_a_group">Create a Group</string>
     <string name="user_name_settings">User Name :</string>
     <string name="enter_your_name">Enter Your Name</string>
+    <string name="back_chat_detail">back</string>
+    <string name="send_button_chat_detail">send button</string>
+    <string name="call">Call</string>
+    <string name="menu_chat">Menu chat</string>
+    <string name="logo_otp_verify">OTP verify</string>
+    <string name="continue_otp_verify">Continue</string>
+    <string name="back_arrow_settings">Back Arrow Settings</string>
+    <string name="set_image_settings">Set Image</string>
+    <string name="about">About :</string>
+    <string name="enter_your_status">Enter Your Status</string>
+    <string name="save">Save</string>
 </resources>
